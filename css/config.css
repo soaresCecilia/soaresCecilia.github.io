@@ -1,0 +1,146 @@
+﻿/* --------------------------------------
+ * Global Typography
+ *------------------------------------------*/
+
+#little_square {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -0.25em;
+    padding-right: 1px;
+}
+
+* {
+    font-family: realist, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+b {
+    font-weight: 400;
+    color: #4172AF;
+    font-weight: 600;
+}
+
+i {
+    font-weight: 400;
+    color: #010303;
+}
+
+u:hover {
+    background-color: rgb(5, 8, 10);
+    color: white;
+}
+
+a:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+/* --------------------------------------
+* Navbar
+*------------------------------------------*/
+
+.topnav {
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a {
+    float: left;
+    background-color: white;
+    color: rgb(27, 16, 190);
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+/* --------------------------------------
+* Header
+*------------------------------------------*/
+
+.header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 250px;
+}
+
+#special_image {
+    border-radius: 10px;
+    width: 10%;
+}
+
+
+/* --------------------------------------
+* Text
+*------------------------------------------*/
+
+.text {
+    font-size: 20px;
+    padding-right: 270px;
+    padding-left: 270px;
+}
+
+.home {
+    padding-bottom: 50px;
+}
+
+#title {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+/* --------------------------------------
+* Footer
+*------------------------------------------*/
+
+.footer {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 35px;
+    color: rgb(27, 16, 190);
+}
+
+
+/* ---------------------------------
+           RESPONSIVE
+------------------------------------*/
+
+@media (max-width: 768px) {
+    .text {
+        padding: 10px;
+    }
+    .topnav a {
+        padding-right: 8px;
+        font-size: 15px;
+    }
+    .header {
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    img {
+        width: 20%;
+    }
+}
